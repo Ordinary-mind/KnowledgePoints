@@ -6,7 +6,7 @@ using System.Collections.Specialized;
 using System.Net.Http;
 using System.Text;
 
-namespace KnowledgePoints.Classes
+namespace Com.Lqn.Knowledge.Utils
 {
     public static class HttpHelper
     {

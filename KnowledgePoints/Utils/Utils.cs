@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KnowledgePoints.Classes
+namespace Com.Lqn.Knowledge.Utils
 {
     public class Utils
     {

@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace KnowledgePoints.Classes
+namespace Com.Lqn.Knowledge.Utils
 {
     static class Crypto
     {

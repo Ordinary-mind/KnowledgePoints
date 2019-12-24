@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KnowledgePoints.DesingPattern
+namespace Com.Lqn.Knowledge.DesingPattern
 {
     public class Singleton
     {
