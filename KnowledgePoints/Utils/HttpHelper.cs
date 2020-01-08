@@ -41,6 +41,24 @@ namespace Com.Lqn.Knowledge.Utils
             return result;
         }
 
+        public static string HttpGet(string url)
+        {
+            string result = string.Empty;
+            try
+            {
+                RestClient client = new RestClient(url);
+                var request = new RestRequest(Method.GET);
+                request.RequestFormat = DataFormat.Json;
+                RestResponse response = (RestResponse)client.Execute(request);
+                result = response.Content;
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
+            return result;
+        }
+
         public static string HttpPost(string url, string postData, Dictionary<string, string> headers = null, string contentType = null, int timeout = 0, Encoding encoding = null)
         {
             using (HttpClient client = new HttpClient())
